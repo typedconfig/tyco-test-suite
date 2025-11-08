@@ -1,0 +1,16 @@
+{
+  "Config": [
+    {
+      "name": "prod-server",
+      "timeout": 30,
+      "mode": "production",
+      "debug": false
+    },
+    {
+      "name": "prod-db",
+      "timeout": 30,
+      "mode": "readonly",
+      "debug": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Base file that defines a struct with defaults
+Config:
+ *str name:
+  int timeout: 30
+  str mode: "production"
+  bool debug: false

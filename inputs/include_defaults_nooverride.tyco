@@ -1,0 +1,6 @@
+# File that includes base without overrides
+#include include_defaults_base.tyco
+
+Config:
+  - "prod-server"
+  - "prod-db", mode: "readonly"

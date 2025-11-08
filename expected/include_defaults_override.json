@@ -1,0 +1,16 @@
+{
+  "Config": [
+    {
+      "name": "staging-server",
+      "timeout": 60,
+      "mode": "staging",
+      "debug": false
+    },
+    {
+      "name": "staging-db",
+      "timeout": 120,
+      "mode": "staging",
+      "debug": false
+    }
+  ]
+}

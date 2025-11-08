@@ -1,0 +1,8 @@
+# File that includes base and overrides some defaults
+#include include_defaults_base.tyco
+
+Config:
+  timeout: 60
+  mode: "staging"
+  - "staging-server"
+  - "staging-db", timeout: 120
