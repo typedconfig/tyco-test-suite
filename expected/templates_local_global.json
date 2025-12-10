@@ -1,0 +1,11 @@
+{
+  "company": "TechCorp",
+  "global": "root-value",
+  "Department": [
+    {
+      "name": "LocalScope",
+      "global": "local-value",
+      "summary": "local-value"
+    }
+  ]
+}

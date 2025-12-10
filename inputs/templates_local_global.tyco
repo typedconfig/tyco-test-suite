@@ -1,0 +1,8 @@
+str company: "TechCorp"
+str global: "root-value"
+
+Department:
+ *str name:
+  str global:
+  str summary:
+  - "LocalScope", "local-value", "{global}"

@@ -1,0 +1,6 @@
+Service:
+ *str name:
+  str tier: (primary, backup)
+  str region:
+  - web, primary, us-east-1
+  - api, backup, us-west-2

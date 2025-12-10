@@ -1,0 +1,14 @@
+str company: ExampleCorp
+
+Host:
+ *str name:
+  str region:
+  - edge, us-west-1
+
+Service:
+ *str name:
+  Host host:
+  str hostname.value:
+  str host_description:
+  str literal_description:
+  - edge-api, Host(edge), "literal-dot", "host={host.name}", "literal={hostname.value}"

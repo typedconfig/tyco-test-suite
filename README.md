@@ -150,7 +150,7 @@ python -c "
 import tyco
 import json
 context = tyco.load('../tyco-test-suite/inputs/new_feature.tyco')
-print(json.dumps(context.to_json(), indent=2))
+print(json.dumps(context.as_json(), indent=2))
 " > ../tyco-test-suite/expected/new_feature.json
 ```
 
@@ -222,7 +222,7 @@ Track which tests pass across implementations:
 ### Expected Files (`.json`)
 
 - UTF-8 encoded JSON files
-- Generated from Python reference implementation's `context.to_json()` method
+- Generated from Python reference implementation's `context.as_json()` method
 - Represent the canonical parsed structure
 - All implementations must produce byte-identical JSON output (modulo whitespace)
 
@@ -303,7 +303,7 @@ import tyco
 import json
 
 context = tyco.load('inputs/failing_test.tyco')
-print(json.dumps(context.to_json(), indent=2))
+print(json.dumps(context.as_json(), indent=2))
 ```
 
 ## 🤝 Contributing
@@ -311,7 +311,7 @@ print(json.dumps(context.to_json(), indent=2))
 ### Test Suite Maintenance
 
 - The Python implementation is the **reference implementation**
-- All expected `.json` files must be generated from Python's `context.to_json()`
+- All expected `.json` files must be generated from Python's `context.as_json()`
 - New tests require approval and must pass in Python first
 - Tests should be minimal and focused on specific features
 

@@ -1,0 +1,15 @@
+{
+  "company": "ExampleCorp",
+  "Host": [
+    {"name": "edge", "region": "us-west-1"}
+  ],
+  "Service": [
+    {
+      "name": "edge-api",
+      "host": {"name": "edge", "region": "us-west-1"},
+      "hostname.value": "literal-dot",
+      "host_description": "host=edge",
+      "literal_description": "literal=literal-dot"
+    }
+  ]
+}

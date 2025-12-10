@@ -1,0 +1,14 @@
+{
+  "Service": [
+    {
+      "name": "web",
+      "tier": "primary",
+      "region": "us-east-1"
+    },
+    {
+      "name": "api",
+      "tier": "backup",
+      "region": "us-west-2"
+    }
+  ]
+}
